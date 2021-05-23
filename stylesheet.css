@@ -1,0 +1,155 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 150px 0;
+}
+.FirstBox{
+	 padding: 4px;  
+    background-color: tomato;  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+	display: block;
+
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+}
+
+.SecondBox{
+	 padding: 4px;  
+    background-color: blue;  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    justify-content:space-between;
+   
+}
+.dot2{
+	display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+   align-self: flex-end;
+}
+
+.ThirdBox{
+	padding: 4px;  
+    background-color: black;  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    justify-content:space-between;
+}
+.dot32{
+	display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+   display: flex;
+   align-self: center;
+}
+.dot33{
+	display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+   align-self: flex-end;
+}
+
+.FourthBox{
+	padding: 4px;  
+    background-color: grey;  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.dot42{
+	display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;
+
+}
+.part1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.part2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 58px 0px;
+}
+.FifthBox{
+	padding: 4px;  
+    background-color: green;  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+.part52{
+	display: flex;
+	align-self: center;
+	padding: 17px 0px;
+}
+
+.part53{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.SixthBox{
+	padding: 4px;  
+    background-color: red;  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.part61{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.part62{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	padding: 16px 0;
+}
+
+.part63{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+
